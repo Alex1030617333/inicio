@@ -1,0 +1,101 @@
+*{
+margin: 0px;
+padding: 0px;
+transition: all;
+transition: 2s;
+}
+
+.contenedor1{
+display: flex;
+justify-content: center;
+text-align: center;
+margin: 60px;
+font-size: 20px;
+font-weight: bold;
+
+
+}
+
+
+body{
+	background-image: url(https://i.ibb.co/d2vNZ9H/3d.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header{
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	text-shadow:3px 4px 10px rgb(12, 52, 231);
+}
+.contols{
+width: 400px;
+height: 30px;
+border-radius: 4px;
+margin-bottom: 16px;
+font-size: 18px;
+}
+.contols:focus{
+	outline-style: groove;
+	border:2px solid rgb(15, 235, 8);
+}
+label{
+	margin: 10px;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: rgb(238, 238, 8);
+	font-weight: bold;
+
+}
+
+.form-register {
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 10px;
+	animation-name: borde;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+background: transparent;
+	width: 540px;
+}
+.form-register{
+	opacity: .6;
+	background: black;
+}
+	
+@keyframes  borde{
+	10%{box-shadow: 1px 2px 3px 4px rgb(211, 243, 6);}
+	30%{box-shadow: 1px 2px 3px 4px rgb(244, 248, 244);}
+	60%{box-shadow: 1px 2px 3px 4px #da0a83;}
+	100%{ box-shadow: 1px 2px 3px 4px #1f53c5; }
+}
+.conte{
+	display: flex;
+	width: 400px;
+	height: 40px;
+	 font-family: "calibri";
+	 font-size: 18px;
+	 margin-left: 60px;
+}
+button{
+	width: 120px;
+	height: 25px;
+	margin: 20px;
+	padding: 5px;
+}
+.linklogin{
+	display: flex;
+	justify-content: space-between;
+
+}
+a{
+	color: rgb(243, 247, 243);
+}
+.pais,.fecha{
+	width: 140px;
+	height: 30px;
+}
+.button{
+	text-decoration: none;
+color: black;
+}

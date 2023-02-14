@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registrouser.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor1">
+        <form class="form-register" action="login.html" method="POST" enctype="multipart/form-data" autocomplete="off" >
+            
+          
+        <header id="tituloformulario">! BIENVENIDO A COMHAFRI 24/7E ¡</header>
+        <br>
+        <label for="">Nombre</label>
+        <input   class="contols" type="text" name="nombre " id="nombre" placeholder="Ingrese su nombre " spellcheck="true">
+        <br>
+        <label for="">Apellido</label>
+        <input  class="contols"  type="text" name="apellido " placeholder="Ingrese su apellido" id="apellido"  spellcheck="true" >
+        <br> 
+        <label for="">correo</label>
+        <input  class="contols" type="email" name="correo" placeholder="Ingrese su correo" id="correo" spellcheck="true" >
+        <br>
+        <label for="">direccion</label>
+        <input   class="contols" type="text" name="direccion " placeholder="Ingrese su direccion" spellcheck="true" >
+        <br>
+        <label for="">telefono</label>
+        <input   class="contols" type="text" min="0" max="15" name="telefono " placeholder="Ingrese su Telefono" id="telefono" >
+        <br>
+        <label for="">contraseña</label>
+        <input   class="contols" type="password" name="contraseña " placeholder="Ingrese su contraseña" required >
+        <br>
+        <label for="">identificado</label>
+        <input   class="contols" type="text" name="id_realidad" placeholder="Ingrese su id de realidad virtual" required >
+       <div class="conte">
+        <div>
+        <label for="">paises</label>
+        <select class=" pais" id="pais" name="pais ">
+            <option id="colombia"> Seleccione el pais  </option>
+            <option id="colombia"> Colombia </option>
+            <option id="atgentina"> Argentina</option>
+            <option value="paraguai">  Paraguai</option>
+            <option> Costarica</option>
+            <option> Cuba</option>
+            <option> Italia</option>
+            <option> Mexico</option>
+            <option> Brasil</option>
+            <option> francia</option>
+            <option> Estados unidos</option>
+            <option> españa</option>
+            <option>Ecuador</option>
+            <option> Chile</option>}
+            <option> Alemania</option>
+            <option> Venezuela</option>
+            <option> Reino unido</option>
+        <option banderas= > italia</option>
+        </select>
+    </div>
+    <br>
+<div class=" ">
+<label for="" id="fecha" class="fecha"> Fecha</label>
+<input type="date" id="fecha">
+</div>
+
+</div>
+
+<br>
+<span id="mensaje_de_envio"></span>
+<p><input type="checkbox"> <a href="#"> 
+	Termino y condicion</p></a>
+<br>
+<button><a href="index.html" class="button">Registro usuario</a> </button>
+<button type="reset" > Reset</button>
+
+<div class="linklogin">
+<p style="color: yellow ;">    Ya tengo cuenta<a href="login.html"> Login </a></p>
+
+</div>
+    </form>  
+</div>
+
+<span id="enviardatos"></span>
+
+<!--
+
+
+
+
+
+
+<script src="login.js"></script>
+<script src="formulari.js"></script>
+ --->
+<script src="registrouser.js"></script>
+
+</body>
+</html>

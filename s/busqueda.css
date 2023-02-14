@@ -1,0 +1,20 @@
+input{
+    border-radius: 8px;
+    width: 400px;
+    height: 36px;
+    background-image: url("lupa.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: right;
+    float: right;
+    cursor: pointer;
+}
+input:hover{
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    color: rgb(16, 240, 53);
+}
+input::placeholder{
+    color: darkturquoise;
+}

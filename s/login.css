@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin:0
+}
+:root{
+    background-image: url(https://i.ibb.co/MkvQDNw/th-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background:linear-gradient(rgb(34, 29, 87),rgb(8, 111, 51),rgb(66, 5, 79),rgb(8, 111, 51) ); 
+    opacity: .7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container1{
+display: flex;
+justify-content: space-between;
+}
+img{
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 4px;
+animation-name: anima;
+animation-duration: 7s;
+animation-iteration-count: 1;
+position: relative;
+}
+@keyframes anima{
+    from{
+        opacity: 0;
+        right:900px;
+      }to{
+        opacity: 1;
+        right:0px;
+      } 
+        }
+
+h1{
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+    text-shadow:5px 10px 7px green;  
+    animation-name: titu;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    position: relative;
+    }
+    @keyframes titu{
+        from{
+            opacity: 0;
+            left:500px;
+          }to{
+            opacity: 1;
+            left:0px;
+           
+       
+            
+          } 
+            }
+    
+.formulario{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+   
+}
+.bien{
+    color: rgb(208, 243, 9);
+    font-size: 20px;
+    padding: 40px;
+    text-shadow:7px 10px 10px rgb(1, 15, 1);
+}
+.contraseña{
+    margin-right: 200px;
+    position: relative;
+    color: rgb(208, 243, 9);
+}
+.email{
+    margin-right: 230px;
+    position: relative;
+    color: rgb(208, 243, 9);
+    
+}
+.control{
+width: 260px;
+height: 10px;
+ border-radius: 4px;
+ padding: 6px; 
+ margin: 10px;
+ 
+}
+.control:focus{
+    outline-style: groove;
+    border: 1px solid rgb(237, 58, 8);
+}
+.boton{
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 17px;
+}
+
+.recontraseña a{
+    color: rgb(237, 241, 241);
+    font-size: 20px;
+    z-index: 1;
+    bottom: 20px;
+}
+.recuerda{
+font-size: 20px;
+padding: 0;
+margin: 30px;
+z-index: 2;
+color: rgb(208, 243, 9);
+
+}
+.registro{
+    font-size: 20px;
+    color: rgb(221, 224, 9);
+
+}
+section{
+   
+    width: 400px;
+    height: 500px;
+    animation-name: sec;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    background: black;
+    opacity: .7;
+    border-radius: 2px;
+}
+@keyframes sec{
+
+ 
+    20%{opacity: .0; background: rgb(245, 241, 241); }
+    40%{opacity: .5; background: rgb(34, 5, 31);}
+   50%{opacity: .6; background:  rgb(62, 20, 58);}
+    75%{opacity: .7; background:  rgb(14, 0, 12);}
+    80%{opacity: .8; background:  rgb(253, 248, 253);}
+}
+
+a{
+color: yellow;
+}

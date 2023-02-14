@@ -1,0 +1,91 @@
+*{
+box-sizing: border-box;
+    position: 0;
+    margin: 0;
+}
+html{
+    background-image: url(https://i.ibb.co/6mL9qCL/images-7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+nav{
+   background-image: url(madera.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    
+    padding: 10px;
+
+}
+.navega1{
+  color: rgb(202, 236, 10);
+}
+.navega1:hover{
+    color: rgb(99, 247, 14);
+
+}
+
+
+li{
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 4px;
+
+}
+a{
+    text-decoration: none;
+ 
+}
+aside{
+   background: transparent;
+    width: 20%;
+    height: 350px;
+    float: left;
+    margin: 4px;
+    background-size: contain;
+    background-image: url(https://i.ibb.co/6mL9qCL/images-7.jpg);
+    background-repeat: no-repeat;
+    object-fit:cover;
+   
+ }
+figcaption{
+    margin: 1px 10px;
+}
+figcaption:hover{
+    color:  rgb(5, 245, 5);
+ 
+ 
+}
+
+.realidad{
+text-align: center;
+padding: 10px;
+color:  rgb(5, 245, 5);;
+}
+
+hr{
+    background:  rgb(5, 245, 5);
+    height: 2px;
+    border: rgb(5, 245, 5);
+}
+summary{
+    color:  rgb(5, 245, 5);
+    animation-duration: 3s;
+    animation-name: confi;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes confi{
+10%{ color:  rgb(228, 231, 228);}
+20%{ color:  rgb(63, 5, 60);}
+60%{ color:  rgb(5, 245, 225);}
+100%{ color:  rgb(18, 87, 236);}
+}
+.btn1{
+    color:  rgb(5, 245, 5);
+  
+}
+
